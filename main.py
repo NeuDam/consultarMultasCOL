@@ -3,7 +3,7 @@ import json
 import signal
 import requests
 
-MAIN_URL = 'https://consultasimit.fcm.org.co/simit/microservices/estado-cuenta-simit/estadocuenta/consulta'
+MAIN_URL = 'https://consultasimit2.fcm.org.co/simit/microservices/estado-cuenta-simit/estadocuenta/consulta'
 
 def signal_handler(sig, frame):
   print('\n\nYou pressed Ctrl+C!, exiting\n')
